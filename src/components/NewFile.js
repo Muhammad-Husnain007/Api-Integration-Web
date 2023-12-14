@@ -16,16 +16,7 @@ const NewFile = () => {
   
     return (
         <div>
-            {/* <div className='div'>
-                <p>ID: {data.id}</p>
-                <p>Title: {data.title}</p>
-                <p>Category: {data.category}</p>
-                <p>Description: {data.description}</p>
-                <img id='images' src={data.image} alt="" />
-                <p>Price: {data.price}</p>
-                <p>Rating: {data.rating.rate}</p>
-                <p>Rating Count: {data.rating.count}</p>
-            </div> */}
+           
             {data.map((item) => (
                 <div className='div' key={item.id}>
                      {/* <p>ID: {item.id}</p>
